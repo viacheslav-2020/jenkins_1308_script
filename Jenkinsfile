@@ -1,12 +1,13 @@
-
 pipeline {
+
   agent any
 
   stages {
 
-  stage ('echo') {
-    steps {
-      echo "Privet"
+    stage ('echo') {
+      steps {
+        echo "Privet"
+      }
     }
   }
 }
